@@ -1,4 +1,4 @@
-select 
+select
   CheckingAcctStat,
   Duration,
   CreditHistory,

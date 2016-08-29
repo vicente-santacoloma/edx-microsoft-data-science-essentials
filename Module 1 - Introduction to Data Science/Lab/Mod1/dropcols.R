@@ -1,4 +1,4 @@
-credit.frame <- maml.mapInputPort(1) 
+credit.frame <- maml.mapInputPort(1)
 drop.cols <- c('OtherInstallments',
                'ExistingCreditsAtBank')
 out.frame <- credit.frame[, !(names(credit.frame) %in% drop.cols)]
